@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+
+.mybtn{
+  margin:0 auto;
+  width:312px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.mybtn>a{
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #fff;
+  background: #eb7d4b;
+  padding: 20px 85px;
+  border: 0px solid #eb7d4b;
+  border-bottom: 4px solid #c86a40;
+  border-radius: 4px;
+  text-decoration: none;
+  opacity: 1;
+  font-family: 'Titillium Web', sans-serif;
+}
+.mybtn>a:hover{
+  opacity: 0.8;
+}
+.line{
+  width: 85px;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+.subtitle{
+  color: #fff;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+.caption{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-top: 140px;
+  font-family: 'Titillium Web', sans-serif;
+}
+.bold-caption{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 110px;
+  text-align: center;
+  color: #3c4761;
+  letter-spacing: 3px;
+}
+
+/*------- NAV ------*/
+#nav-block{
+  background: #87509c;
+  min-height: 570px;
+}
+#nav-block>.container{
+  margin-top: 50px;
+}
+.navbar-header>button{
+  border: 1px solid #fff;
+  opacity: 0.7
+}
+.navbar-header span{
+  background: #fff;
+}
+#logo{
+  margin-bottom: 10px;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list>ul>li>a{
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
+}
+#nav-list>ul>li>a:hover{
+  background: #643a79;
+  border-radius: 5px;
+}
+@media all and (max-width:345px) {
+  .mybtn{
+    width: 265px;
+  }
+  .mybtn>a{
+    padding: 20px 70px;
+  }
+}
+
+/*------  services-block  -------*/
+#services-block{
+  background: #17c2a4;
+  min-height: 745px;
+}
+#services-block .caption{
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-top: 120px;
+}
+#serv{
+  margin-top: 60px;
+}
+
+.img-serv{
+  text-align: center;
+}
+.caption-serv{
+  color: #fff;
+  font-weight: 600;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.about-serv{
+  font-size: 16px;
+  color: #e0f7f3;
+  text-align: center;
+  padding-bottom: 20px;
+}
+/*-------  Team block  ------*/
+
+#team-block{
+  background: #e7f1f8;
+  min-height: 900px;
+}
+#team-block .subtitle{
+  color:#535e75;
+}
+#our-team{
+  margin-top: 90px;
+}
+.photo-member{
+  padding: 5px;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #9c9c9c;
+}
+.name-member{
+  text-align: center;
+  color: #3c4761;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+.job-member{
+  color: #48c1e9;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0;
+}
+.about-member{
+  margin-top: 10px;
+  text-align: center;
+  color: #3c4761;
+  font-size: 16px;
+  padding: 0 20px;
+}
+.socials-member{
+  text-decoration: none;
+  list-style-type: none;
+
+}
+.socials-member>li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 2px 5px;
+}
+
+.third-socials{
+  margin-left: 20px;
+}
+.socials-member>li:hover{
+  opacity: .7;
+}
+@media all and (max-width:1023px) and (min-width:374px) {
+
+  .socials-member{
+    text-align: center;
+  }
+  .socials-member:first-child{
+    margin-left: 0;
+  }
+  .socials-member:last-child{
+    margin-right: 20px;
+  }
+}
+@media all and (max-width:1200px) and (min-width:992px){
+}
+  .socials-member>li{
+    margin: 2px 2px;
+  }
+
+}
+
+/*------  Skills block  -----*/
+
+#skills-block{
+  background: #fff;
+  min-height: 600px;
+}
+#skills-block .subtitle{
+  color: #535e75;
+  margin-bottom: 80px;
+}
+
+.my-progress{
+  text-align: center;
+}
+.what-progress{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #3c4761;
+  font-weight:600;
+  margin-bottom: 40px;
+}
+/*--------  Portfolio block  -------*/
+
+#portfolio-block{
+  min-height: 1400px;
+  background: #ffdd99;
+}
+#portfolio-block .bold-caption{
+  color: #393939;
+}
+#portfolio-block .subtitle{
+  color: #393939;
+}
+.category{
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.category>li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px 4px;
+
+}
+.category>li>a{
+  text-decoration: none;
+  color: #393939;
+  padding: 10px 22px;
+  font-size: 18px;
+  background: #ebc985;
+  border-radius: 5px;
+
+}
+.category>li>a:hover,.category>li>a:active{
+  background: #ffffff;
+}
+.macbook{
+  margin-top: 40px;
+}
+.macbook>img{
+  width: 100%;
+}
+.works{
+  font-size: 18px;
+  text-align: center;
+  color: #393939;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#portfolio-block .mybtn{
+  width: 346px;
+  margin-bottom: 20px;
+}
+#portfolio-block .mybtn>a{
+  background:#17c2a4;
+  border-bottom: 4px solid #14a58c;
+}
+@media all and (max-width:345px) {
+   #portfolio-block .mybtn{
+    width: 226px;
+  }
+  #portfolio-block .mybtn>a{
+    padding: 20px 25px;
+  }
+}
+
+
+/*------- About block  -------*/
+#about-block{
+  background: #d74680;
+  color: #fff;
+  min-height: 900px;
+}
+#about-block .bold-caption{
+  color: #fff;
+}
+#about-block .subtitle{
+  margin-bottom: 50px;
+}
+.photo-about{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #8c8c8c;
+  margin-bottom: 10px;
+}
+.text-about{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 300;
+  padding: 1px
+}
+.name-about{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 0;
+}
+.works-about{
+  color: #fac996;
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 3px;
+  margin-bottom: 150px;
+}
+
+@media all and (max-width:990px) {
+  .works-about{
+    margin-bottom: 50px;
+  }
+}
+
+/*------  Contact block  ------*/
+#contact-block{
+  background: #3c5499;
+  min-height: 800px;
+}
+#contact-block .bold-caption{
+  color: #fff;
+
+}
+#contact-block .subtitle{
+  color: #fff;
+  margin-bottom: 50px;
+}
+.inputs{
+  width: 100%;
+  outline: none;
+  border: 0;
+  padding: 15px 25px;
+  background: #273a71;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+#textarea{
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  background: #273a71;
+  width: 100%;
+  height: 200px;
+  border: 0;
+  padding: 15px 25px;
+  resize: none;
+}
+
+#contact-block img{
+  position: absolute;
+  right: 0;
+  padding-right: 22px;
+  bottom: 10px;
+}
+#contact-block .mybtn{
+  margin-bottom: 30px;
+}
+#contact-block .mybtn>a{
+  background: #30bae7;
+  border-bottom: 4px solid #299ec5;
+
+}
+/*------ Footer  -----*/
+#footer{
+background:  #344b8e;
+}
+#footer ul{
+list-style-type: none;
+padding-top:35px;
+padding-bottom:15px;
+text-align: center;
+}
+#footer ul>li{
+  display: inline-block;
+}
+#footer ul>li>a{
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  padding: 0 25px;
+  font-weight: 600;
+}
+#footer ul>li>a:hover{
+  color:#319ccf;
+}
